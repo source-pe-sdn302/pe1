@@ -1,11 +1,13 @@
 const mongoose = require("mongoose");
-const User = require("./user.model");
+const Department = require("./department.model");
+const Job = require("./job.model");
+const Employee = require("./employee.model");
 
-const db = {}
+const db = {};
 
 // Define schema
-db.User = User
-
-
+db.Department = Department;
+db.Job = Job;
+db.Employee = Employee;
 
 module.exports = db;
